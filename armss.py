@@ -1,6 +1,6 @@
 n=int(input())
 h=0
-a=h
+a=n
 while a>0:
   num=a%10
   h+=num**3
