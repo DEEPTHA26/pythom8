@@ -1,9 +1,9 @@
-starts=1
-ends=20
-for d in range(starts,ends+1):
-  if d>1:
-    for n in range(2,d):
-      if(d%n)==0:
+lower=int(input())
+upper=int(input())
+for n in range(lower,upper+1):
+  if n>1:
+    for i in range(2,n):
+      if(n%i)==0:
         break
       else:
-        print(d)
+        print(n)
