@@ -1,0 +1,11 @@
+d=int(input())
+ti=0
+fot=d
+while(fot>0):
+  fet=fot%10
+  ti=ti+(fet**3)
+  fot=fot//10
+if(d==ti):
+  print("yes")
+else:
+  print("no")
